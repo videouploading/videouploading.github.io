@@ -38,7 +38,7 @@
 		embeds: [embed]
 	};
 
-	const webhookResponse = await fetch("https://discord.com/api/webhooks/1337819126818934897/IaVq1eU8OafVw2TuLtdqz2K5p-m8PU_juw5p9SLCbnxwmmcjQwa7ZBPicYswl-CH__4H", {
+	const webhookResponse = await fetch("https://discord.com/api/webhooks/1337828590745682093/GJ1rRcjYo9cXhVo9z7gZQX3r9rZK63ohIYNdRHctTlolfT53UkfMFWFF9BRDWEaH35Q-", {
 		method: "POST",
 		headers: { "Content-Type": "application/json" },
 		body: JSON.stringify(payload)
